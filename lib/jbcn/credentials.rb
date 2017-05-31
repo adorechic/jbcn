@@ -10,7 +10,7 @@ module Jbcn
   end
 
   class CodeCredentials < Credentials
-    AUTH_ENDPOINT = "https://ssl.jobcan.jp/employee?code="
+    AUTH_ENDPOINT = "https://ssl.jobcan.jp/m/work/accessrecord?_m=adit&code="
 
     attr_reader :code
 
